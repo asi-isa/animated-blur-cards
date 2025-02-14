@@ -25,7 +25,7 @@ export const AnimatedBlurCard = ({
       origin={{ x: CardWidth / 2, y: CardHeight / 2 }}
       transform={rTransform}
     >
-      <BlurCard />
+      <BlurCard progress={progress} />
     </Group>
   );
 };
